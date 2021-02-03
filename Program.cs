@@ -10,7 +10,7 @@ namespace ArrayPrintingFibonacci
             int nElement = int.Parse(Console.ReadLine()); //read the n element
             int[] arrFibonaci = new int[nElement]; // create an array with nElements
 
-            //We have to fill the array to the last -> n element, how to do this, We know the value of index 1 and index 2]
+            //We have to fill the array to the last -> n element, how to do this, We know the value of index 0 and index 1]
             int length = arrFibonaci.Length;
 
             if (length == 1)
