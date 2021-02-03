@@ -8,10 +8,10 @@ namespace ArrayPrintingFibonacci
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Please provide a number--this is a Fivonacci RowMember, You want to print positive, number > 0 ");
+            Console.WriteLine("Please provide number for FibonacciRowMemeber You want to print, in interval [1 till 46]");
             int nElement = int.Parse(Console.ReadLine()); // read nArticle that You want to print from FibonacciRow
             
-            if (nElement <= 0)
+            if (nElement <= 0 || nElement >= 47) //when n >= 47 integer DataType overflows/ when n<=0 there is not a such memberIndex into the Row
             {
                 Console.WriteLine("Dear User , please enter a positive number > 0");
             }
