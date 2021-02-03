@@ -7,6 +7,8 @@ namespace ArrayPrintingFibonacci
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Entered number must  be positive , number > 0 ");
+            
             int nElement = int.Parse(Console.ReadLine()); //read the n element
             int[] arrFibonaci = new int[nElement]; // create an array with nElements
 
