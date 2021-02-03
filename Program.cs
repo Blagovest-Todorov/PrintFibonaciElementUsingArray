@@ -7,18 +7,9 @@ namespace ArrayPrintingFibonacci
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-          
-=======
-            Console.WriteLine("Entered number must be positive, number > 0 ");
+
+            Console.WriteLine("Please provide number, positive, number > 0 ");
             
-            int nElement = int.Parse(Console.ReadLine()); //read the n element
-            int[] arrFibonaci = new int[nElement]; // create an array with nElements
-
-            //We have to fill the array to the last -> n element, how to do this, We know the value of index 0 and index 1]
-            int length = arrFibonaci.Length;
->>>>>>> 3eef6c1a27f0ea3073e3844034cf55ca5af25ec6
-
             if (nElement <= 0)
             {
                 Console.WriteLine("Dear User , please enter a positive number > 0");
