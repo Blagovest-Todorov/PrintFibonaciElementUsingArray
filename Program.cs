@@ -8,7 +8,8 @@ namespace ArrayPrintingFibonacci
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Please provide number, positive, number > 0 ");
+            Console.WriteLine("Please provide a number--this is a Fivonacci RowMember, You want to print positive, number > 0 ");
+            int nElement = int.Parse(Console.ReadLine()); // read nArticle that You want to print from FibonacciRow
             
             if (nElement <= 0)
             {
